@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Immortal</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FREEHTML5.CO" />
+
+  <!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FREEHTML5.CO
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- Google Webfonts -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Theme Style -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<link href="css/hover-min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+	<style>
+.col-item {
+  border: 1px solid #E1E1E1;
+  background: #FFF;
+  margin-bottom:12px;
+}
+.col-item .options {
+  position:absolute;
+  top:6px;
+  right:22px;
+}
+.col-item .photo {
+  overflow: hidden;
+}
+.col-item .photo .options {
+  display:none;
+}
+.col-item .photo img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.col-item .options-cart {
+  position:absolute;
+  left:22px;
+  top:6px;
+  display:none;
+}
+.col-item .photo:hover .options,
+.col-item .photo:hover .options-cart {
+  display:block;
+  -webkit-animation: fadeIn .5s ease;
+  -moz-animation: fadeIn .5s ease;
+  -ms-animation: fadeIn .5s ease;
+  -o-animation: fadeIn .5s ease;
+  animation: fadeIn .5s ease;
+}
+.col-item .options-cart-round {
+  position:absolute;
+  left:38%;
+  top:16%;
+  display:none;
+}
+.col-item .options-cart-round button {
+  border-radius: 100%;
+  padding:12px 16px;
+  
+}
+.col-item .options-cart-round button .fa {
+  font-size:18px;
+}
+.col-item .photo:hover .options-cart-round {
+  display:block;
+  -webkit-animation: fadeInDown .5s ease;
+  -moz-animation: fadeInDown .5s ease;
+  -ms-animation: fadeInDown .5s ease;
+  -o-animation: fadeInDown .5s ease;
+  animation: fadeInDown .5s ease;
+}
+.col-item .info {
+  padding: 10px;
+  margin-top: 1px;
+}
+.col-item .price-details {
+  width: 100%;
+  margin-top: 5px;
+}
+.col-item .price-details h1 {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  float:left;
+}
+.col-item .price-details .details {
+  margin-bottom: 0px;
+  font-size:12px;
+}
+.col-item .price-details span {
+  float:right;
+}
+.col-item .price-details .price-new {
+  font-size:16px;
+}
+.col-item .price-details .price-old {
+  font-size:18px;
+  text-decoration:line-through;
+}
+.col-item .separator {
+  border-top: 1px solid #E1E1E1;
+}
+
+.col-item .clear-left {
+  clear: left;
+}
+.col-item .separator a {
+  text-decoration:none;
+}
+.col-item .separator p {
+  margin-bottom: 0;
+  margin-top: 6px;
+  text-align: center;
+}
+
+.col-item .separator p i {
+  margin-right: 5px;
+}
+.col-item .btn-add {
+  width: 60%;
+  float: left;
+}
+.col-item .btn-add a {
+  display:inline-block !important;
+}
+.col-item .btn-add {
+  border-right: 1px solid #E1E1E1;
+}
+.col-item .btn-details {
+  width: 40%;
+  float: left;
+  padding-left: 10px;
+}
+.col-item .btn-details a {
+  display:inline-block !important;
+}
+.col-item .btn-details a:first-child {
+  margin-right:12px;
+}
+	</style>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<header id="fh5co-header" role="banner" >
+		<nav class="navbar navbar-default" role="navigation" style="background-color:black;">
+			<div class="container-fluid">
+				<div class="navbar-header"> 
+				<!-- Mobile Toggle Menu Button -->
+				<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#fh5co-navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+				<a class="navbar-brand" href="index.html"><div class="animated fadeIn">Immortal</div></a>
+				</div>
+				<div id="fh5co-navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-left" >
+						<li class="active"><a href="index.html"><span>CATEGORIES</span><span class="border"></span></span></a></li>
+						<li><a href="index.html"><span>PLAYSTATION<span class="border"></span></span></a></li>
+						<li><a href="right-sidebar.html"><span>XBOX<span class="border"></span></span></a></li>
+						<li><a href="left-sidebar.html"><span>PC<span class="border"></span></span></a></li>
+						<li><a href="sell.html"><span>SELL GAMES<span class="border"></span></span></a></li>
+						<li><span><input type="text" name="search" placeholder="Search.."><span class="border"></span></span></li>
+						
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="login.html" class="button hvr-grow"><span>Login | Register<span class="border"></span></span></a></li>
+						<li><a href="elements.html"><span>LOCATE US<span class="border"></span></span></a></li>
+					</ul>
+					
+				</div>
+			</div>
+		</nav>
+		<div class="container">
+	<div class="row">
+        <h2>Ecommerce Products Display Layout</h2>
+        <p>
+            This snippent uses <a href="http://daneden.github.io/animate.css/" target="_blank">Animate.css</a> for the animation of the buttons.
+        </p>
+        <div class="col-sm-3">
+            <article class="col-item">
+            	<div class="photo">
+        			<div class="options-cart-round">
+        				<button class="btn btn-default" title="Add to cart"><img src="rsz_1rsz_1rsz_1rsz_3cart.png"/>
+        					<span class="fa fa-shopping-cart"></span>
+        				</button>
+        			</div>
+        			<a href="#"> <img src="https://unsplash.it/500/300?image=0" class="img-responsive" alt="Product Image" /> </a>
+        		</div>
+        		<div class="info">
+        			<div class="row">
+        				<div class="price-details col-md-6">
+        					<p class="details">
+        						Lorem ipsum dolor sit amet, consectetur..
+        					</p>
+        					<h1>Sample Product</h1>
+        					<span class="price-new">$110.00</span>
+        				</div>
+        			</div>
+        		</div>
+        	</article>
+            <p class="text-center">Hover over image</p>
+        </div>
+        <div class="col-sm-3">
+            <article class="col-item">
+        		<div class="photo">
+					<div class="options-cart-round">
+        				<button class="btn btn-default" title="Add to cart"><img src="rsz_1rsz_1rsz_1rsz_3cart.png"/>
+        					<span class="fa fa-shopping-cart"></span>
+        				</button>
+        			</div>
+        			<div class="options">
+        				<button class="btn btn-default" type="submit" data-toggle="tooltip" data-placement="top" title="Add to wish list">
+        					<i class="fa fa-heart"></i>
+        				</button>
+        				<button class="btn btn-default" type="submit" data-toggle="tooltip" data-placement="top" title="Compare">
+        					<i class="fa fa-exchange"></i>
+        				</button>
+        			</div>
+        			<div class="options-cart">
+        				<button class="btn btn-default" title="Add to cart">
+        					<span class="fa fa-shopping-cart"></span>
+        				</button>
+        			</div>
+        			<a href="#"> <img src="https://unsplash.it/500/300?image=0" class="img-responsive" alt="Product Image" /> </a>
+        		</div>
+        		<div class="info">
+        			<div class="row">
+        				<div class="price-details col-md-6">
+        					<p class="details">
+        						Lorem ipsum dolor sit amet, consectetur..
+        					</p>
+        					<h1>Sample Product</h1>
+        					<span class="price-new">$110.00</span>
+        				</div>
+        			</div>
+        		</div>
+        	</article>
+            <p class="text-center">Hover over image</p>
+        </div>
+        <div class="col-sm-3">
+        	<article class="col-item">
+        		<div class="options">
+        			<button class="btn btn-default" type="submit" data-toggle="tooltip" data-placement="top" title="Add to wish list">
+        				<i class="fa fa-heart"></i>
+        			</button>
+        			<button class="btn btn-default" type="submit" data-toggle="tooltip" data-placement="top" title="Compare">
+        				<i class="fa fa-exchange"></i>
+        			</button>
+        		</div>
+        		<div class="photo">
+        			<a href="#"> <img src="https://unsplash.it/500/300?image=0" class="img-responsive" alt="Product Image" /> </a>
+        		</div>
+        		<div class="info">
+        			<div class="row">
+        				<div class="price-details col-md-6">
+        					<p class="details">
+        						Lorem ipsum dolor sit amet, consectetur..
+        					</p>
+        					<h1>Sample Product</h1>
+        					<span class="price-new">$110.00</span>
+        				</div>
+        			</div>
+        		</div>
+        	</article>
+        </div>
+        <div class="col-sm-3">
+        	<article class="col-item">
+        		<div class="photo">
+        			<a href="#"> <img src="https://unsplash.it/500/300?image=0" class="img-responsive" alt="Product Image" /> </a>
+        		</div>
+        		<div class="info">
+        			<div class="row">
+        				<div class="price-details col-md-6">
+        					<p class="details">
+        						Lorem ipsum dolor sit amet, consectetur..
+        					</p>
+        					<h1>Sample Product</h1>
+        					<span class="price-new">$110.00</span>
+        				</div>
+        			</div>
+        			<div class="separator clear-left">
+        				<p class="btn-add">
+        					<i class="fa fa-shopping-cart"></i><a href="#" class="hidden-sm">Add to cart</a>
+        				</p>
+        				<p class="btn-details">
+        					<a href="#" class="hidden-sm" data-toggle="tooltip" data-placement="top" title="Add to wish list"><i class="fa fa-heart"></i></a>
+        					<a href="#" class="hidden-sm" data-toggle="tooltip" data-placement="top" title="Compare"><i class="fa fa-exchange"></i></a>
+        				</p>
+        			</div>
+        			<div class="clearfix"></div>
+        		</div>
+        	</article>
+        </div>
+	</div>
+</div>
+	</header>
+	<!-- END .header -->
+<body>
+
+</body>
+</html>
